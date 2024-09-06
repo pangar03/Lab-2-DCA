@@ -3,7 +3,7 @@ class Button extends HTMLElement {
         return ['text', 'type'];
     }
 
-    changedAttributeCallback(propName, oldValue, newValue) {
+    attributeChangedCallback(propName, oldValue, newValue) {
         if (oldValue !== newValue) {
             this[propName] = newValue;
             this.render();

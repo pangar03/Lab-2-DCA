@@ -1,0 +1,21 @@
+.tweet-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 26rem;
+    height: 26rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+}
+
+.tweet-card h2 {
+    font-size: 1.5rem;
+    color: white;
+    margin: 0;
+}
+
+.tweet-card i {
+    color: white;
+    font-size: 1.5rem;
+}

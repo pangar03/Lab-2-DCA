@@ -3,7 +3,7 @@ class NavLinks extends HTMLElement {
         return[ 'text', 'type'];
     }
     
-    changeAttributeCallback(propName, oldValue, newValue){
+    attributeChangedCallback(propName, oldValue, newValue){
         if(oldValue !== newValue){
             this[propName] = newValue;
             this.render();

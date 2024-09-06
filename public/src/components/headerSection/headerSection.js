@@ -23,8 +23,8 @@ class HeaderSection extends HTMLElement {
                     <nav-links text="SUPPORT" type="arrowed"></nav-links>
                 </div>
                 <div>
-                    <my-button text="SIGN UP" type="call-2-action"></my-button>
-                    <nav-links text="Login" type="not-arrowed"></nav-links>
+                    <my-button text="SIGN UP" type="small--call-2-action"></my-button>
+                    <my-button text="LOGIN" type="small--borderless"></my-button>
                 </div>
             </nav>
         `;

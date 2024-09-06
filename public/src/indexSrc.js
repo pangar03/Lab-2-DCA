@@ -20,8 +20,8 @@ class AppContainer extends HTMLElement {
         // Hero
         this.shadowRoot.innerHTML += `
             <section class="hero">
-                <my-button text="PRE-ORDER BO6" type="call-2-action"></my-button>
-                <my-button text="VISIT SITE" type="normal"></my-button>
+                <my-button text="PRE-ORDER BO6" type="big--call-2-action"></my-button>
+                <my-button text="VISIT SITE" type="big"></my-button>
             </section>
         `;
         
@@ -31,7 +31,7 @@ class AppContainer extends HTMLElement {
                 <h1>LATEST NEWS & ARTICLES</h1>
                 <news-section></news-section>
                 <ul class="news"></ul>
-                <my-button text="VIEW ALL NEWS" type="normal"></my-button>
+                <my-button text="VIEW ALL NEWS" type="big"></my-button>
             </section>
         `;
 
@@ -49,7 +49,36 @@ class AppContainer extends HTMLElement {
         });
 
         // Banner 1
-        
+        this.shadowRoot.innerHTML += `
+            <my-banner 
+                title="WE'RE HERE TO HELP!"
+                text="Get answers to frequently asked questions, check server status, and engage with a support expert"
+                txtbutton="VISIT SUPPORT"
+                typebutton="big"
+                class="support"
+            </my-banner>
+        `;
+
+        // Community
+        this.shadowRoot.innerHTML += `
+            <section class="community">
+                <div class="community-title">
+                    <h1>COMMUNITY</h1>
+                </div>
+                <tweets-section></tweets-section>
+            </section>
+        `;
+
+        // Banner 1
+        this.shadowRoot.innerHTML += `
+            <my-banner 
+                title="HAVE FUN"
+                text="Learn more about job opportunities"
+                txtbutton="JOIN US"
+                typebutton="big"
+                class="careers"
+            </my-banner>
+        `;
     }
 };
 

@@ -1,4 +1,15 @@
 class SectionButton extends HTMLElement {
+    static get observedAttributes() {
+        return ['text'];
+    }
+
+    attributeChangedCallback(propName, oldValue, newValue) {
+        if (oldValue !== newValue) {
+            this[propName] = newValue;
+            this.render();
+        }
+    }
+
     constructor() {
         super();
         this.attachShadow({mode: 'open'});
