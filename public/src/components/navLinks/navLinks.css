@@ -1,0 +1,18 @@
+a {
+    text-decoration: none;
+}
+
+span {
+    color: white;
+}
+
+.arrow {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-right: 2px solid #FFF;
+    border-top: 2px solid #FFF;
+    rotate: 135deg;
+    transition: .25s all;
+}

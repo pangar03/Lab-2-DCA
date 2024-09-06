@@ -1,0 +1,17 @@
+button {
+    color: white;
+    padding: 1.2rem 5.5rem;
+    border-radius: 400px;
+    background: none;
+    border: 2px solid white;
+}
+
+button span {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.call-2-action {
+    background-color: #1C3458;
+    border: 2px solid #26487c;
+}

@@ -1,0 +1,33 @@
+.hero {
+    height: 30rem;
+    padding: 10rem;
+    gap: 2rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-image: url("https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blackops6/meta/BO6_LP-meta_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.news-container {
+    color: white;
+    margin: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.news {
+    padding: 5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}

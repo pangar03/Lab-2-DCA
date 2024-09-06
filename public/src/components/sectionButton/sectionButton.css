@@ -1,0 +1,16 @@
+button {
+    color: white;
+    border: none;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 13rem;
+    height: 5rem;
+}
+
+button:hover {
+    transition: 0.3s ease-in-out;
+    background-color: #1F3341;
+    cursor: pointer;
+}

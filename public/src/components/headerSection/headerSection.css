@@ -1,0 +1,14 @@
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 1rem;
+    gap: 1.5rem;
+    background-color: rgb(4, 4, 4, 0.7);
+    border-bottom: solid 1px #B3B6B7;
+    position: fixed;
+}
+
+img {
+    height: 30px;
+}
